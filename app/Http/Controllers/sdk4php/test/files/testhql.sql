@@ -1,0 +1,1 @@
+SELECT uuid, name from NodeBase where name = 'okm:root';

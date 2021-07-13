@@ -1,0 +1,8 @@
+import com.openkm.bean.*;
+import com.openkm.api.*;
+
+for (Folder fld : OKMFolder.getInstance().getChildren(null,"/okm:root")) {
+    print(fld+"\n");
+}
+// Some value can also be returned as string
+return "some result";
